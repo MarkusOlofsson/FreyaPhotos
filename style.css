@@ -1,0 +1,415 @@
+body {
+    background-color: rgb(73, 73, 73)/*Bakgrundsfärg*/
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+/* Stil för header elementet */
+#header1 {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color:  #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 2px; /* Ökar avståndet mellan bokstäverna för en mer luftig känsla */
+}
+
+#header2 {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 2px; /* Ökar avståndet mellan bokstäverna för en mer luftig känsla */
+}
+
+#header3, #header4 {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 2px; /* Ökar avståndet mellan bokstäverna för en mer luftig känsla */
+}
+
+#headercenter {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+        letter-spacing: 2px; /* Ökar avståndet mellan bokstäverna för en mer luftig känsla */
+}
+
+#headertext {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex; /* Gör nav-elementet till en flex-container */
+    flex-wrap: wrap; /* Gör att elementen i nav-elementet hamnar under varandra vid för liten skärm */
+}
+
+/* Stil för ul elementet */
+nav ul {
+    display:block; /* Gör ul-elementet till ett block-element */
+    list-style-type: none; /* Tar bort punkterna från listan */
+    margin: 0;  
+    padding: 0; 
+}
+
+/* Stil för li elementet */
+nav ul li { 
+    margin: 10px 0;  
+}
+
+/* Stil för a elementet */
+nav ul li a { 
+    display: block; 
+    padding: 10px 20px;
+    background-color: #f8f9fa; 
+    color: #343a40;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+/* Stil för a elementet vid hover */
+nav ul li a:hover {
+    background-color: #5b6e81;
+    color: #f8f9fa;
+}
+
+nav ul li a.active {
+    background-color: #343a40; 
+    color: white; 
+}
+
+#logo {
+    margin-left: 20px; 
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 303px;
+    max-inline-size: 100%;
+    
+}
+ 
+#textkvadrat, #textochlista, #bildomfreya {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#bildkvadrat {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#bildkvadrat2 {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#bildkvadratstudio {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#brödtext {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 1px;
+}
+
+#visningsbilder, #visningsbilder2 {
+    display:flex;
+}
+
+/* Sista sektionen på första sidan*/
+
+#visningsbild {
+    
+    border-radius: 5px;
+    width: 711px;
+    height: 300px;
+    max-inline-size: 100%;
+}
+
+#visningsbild2 {
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 239px;
+    height: 300px;
+    max-inline-size: 100%;
+}
+
+#visningsbild3 {
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 424px;
+    height: 300px;
+    max-inline-size: 100%;
+}
+
+#brollopbild1 {
+    border-radius: 5px;
+    width: 576px;
+    height: 412px;
+    max-inline-size: 100%;
+    margin-left: 100px;
+}
+
+#brollopbild2 {
+    border-radius: 5px;
+    width: 618px;
+    height: 412px;
+    max-inline-size: 100%;
+    margin-left: 70px;
+}
+
+#brollopbild3 {
+    border-radius: 5px;
+    width: 330px;
+    height: 412px;
+    max-inline-size: 100%;
+    margin-left: 70px;
+    margin-top: 10px;
+    float: left;
+    }
+
+
+#brollopbild4 {
+    border-radius: 5px;
+    width: 275px;
+    height: 412px;
+    max-inline-size: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+#studiobild, #studiobild2, #studiobild3, #studiobild4, #studiobild5 {
+    border-radius: 5px;
+    width: 700px;
+    max-inline-size: 100%;
+    height: 466px;
+}
+
+
+
+#Tillbaka, #kontakt {
+    padding: 5px 30px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#tillbakaknapp, #kontaktknapp {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#kontakt:hover, #Tillbaka:hover {
+    background-color: #5b6e81;
+    color: #f8f9fa;
+}
+
+/* styling av bilder + sista knappen */
+
+#brödtextomoss {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 1px;
+}
+
+.innehållomoss {
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 1px;
+}
+
+.innehåll {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bildomfreya {
+        display: flex; /* gör fieldset till en flex-container */
+        justify-content: space-between; /* lägger till utrymme mellan bilden och rubriken */
+        margin-bottom: 20px;
+    }
+
+#freya {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 520px;
+    height: 362px;
+    max-inline-size: 100%;
+
+}
+
+#styrkor li {
+    margin: 10px 0; 
+    padding: 10px 20px; 
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#övresektion {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#info {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; /* Använder en klassisk serif-font */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för att ge texten djup */
+    letter-spacing: 1px;
+}
+
+#barnbild1 {
+    border-radius: 5px;
+    width: 450px;
+    height: 300px;
+    max-inline-size: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#barnbild2, #barnbild3 {
+    border-radius: 5px;
+    width: 450px;
+    height: 300px;
+    max-inline-size: 100%;
+    margin-left: 10px;
+}
+
+#barnbild4 {
+    border-radius: 5px;
+    width: 234px;
+    height: 350px;
+    max-inline-size: 100%;
+    margin-left: 140px;
+
+}
+
+#barnbild5, #barnbild6, #barnbild7{
+    border-radius: 5px;
+    width: 234px;
+    height: 350px;
+    max-inline-size: 100%;
+    margin-left: 60px;
+
+}
+
+#fri {
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    max-inline-size: 100%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#fri1 {
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    max-inline-size: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.frilansbilder {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+    #bildomfreya {
+        flex-wrap: wrap;
+    }
+    #övresektion {
+        flex-wrap: wrap;
+    }
+    #menykvadrat {
+        flex-wrap: wrap;
+    }
+    #header {
+        flex-wrap: wrap;
+    }
+    #logo {
+        flex-wrap: wrap;
+    }
+    #visningsbilder, #visningsbilder2, #bildkvadratstudio {
+        flex-wrap: wrap;
+    }
+    #freya {
+        flex-wrap: wrap;
+    }
+    .innehållomoss {
+        flex-wrap: wrap;
+    }
+    #brollopbild1, #brollopbild2, #brollopbild3, #brollopbild4 {
+        flex-wrap: wrap;
+    }
+    #barnbild1, #barnbild2, #barnbild3, #barnbild4, #barnbild5, #barnbild6, #barnbild7 {
+        flex-wrap: wrap;
+    }
+}
